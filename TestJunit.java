@@ -6,9 +6,10 @@ import org.junit.Test;
 
 public class TestJunit {
 	@Test
-	public void testReduceMoney() {
+	public void testReduceMoneyDifferentCurrency() {
 		Bank bank= new Bank();
-		Money result= bank.reduce(Money.dollar(1), "USD");
+		bank.addRate("CHF", "USD", 2);
+		Money result= bank.reduce(Money.franc(2), "USD");
 		assertEquals(Money.dollar(1), result);
 	}
 }
