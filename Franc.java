@@ -1,4 +1,3 @@
-package sibisoft.code;
 
 public class Franc extends Money {
 	
