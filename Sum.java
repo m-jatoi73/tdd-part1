@@ -1,4 +1,3 @@
-package sibisoft.code;
 
 public class Sum implements Expression{
 	Expression augend;
