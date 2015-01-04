@@ -1,4 +1,3 @@
-package sibisoft.code;
 
 public class Money implements Expression{
 
