@@ -1,4 +1,4 @@
-package sibisoft.code;
+
 
 public class Dollar extends Money{
 	
