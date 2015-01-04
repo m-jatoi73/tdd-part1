@@ -1,4 +1,3 @@
-package sibisoft.code;
 
 import static org.junit.Assert.*;
 
